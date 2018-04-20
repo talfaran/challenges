@@ -1,53 +1,135 @@
+
 *{
-  -webkit-box-sizing: border-box;
- }
-
-h1 {
-
-    color: green;
-}
-body {
-    margin: 0;
-    background-color: #ddd;
-  }
-
-.circle {
-    border: 2px solid black;
-    background-color: rgb(103, 20, 212);
-    width: 100%;
-    height: 26.6666vw;
-    border-radius: 50%;      
+    -webkit-box-sizing: border-box;
 }
 
 
+.top {
+    background-color:#c40219;
+    width: 446px;
+    height: 357px;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 20px;
+    
+    
+}
 
-.column {
-    float: left;
-    width: 33.3333333%;
-  }
+.buttom {
+    background-color:#ae0217;
+    width: 446px;
+    height: 238px;
+    margin: auto;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
 
-.innerColumn{
-      padding: 10%
-  }
+h1{
+color: #fff;
+font-family: Arial;
+font-size: 24px;
+line-height: 20px;
+font-weight: normal;
+text-align: center;
+margin-top: 15px;
+margin-bottom:30px;
+}
 
-  p {
+.joinPoalimLink{
     position: relative;
-    display: flex;
+    text-align:center;
+    display:block;
+    margin-top: 40px;
+
+}
+
+.theInput{
+    width:80%;
+    margin:auto;
+    
+
+}
+
+input{
+    display:block;
+    width:100%;
+    height:40px;
+    margin-bottom: 10px;
+
+}
+
+.joinPoalim{
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+.openAccount{
+    text-align: center;
+    
+}
+
+.btn{
+    margin-top:30px;
+    padding-top: 15px;
+    width:80%;
+    height:90px;
+    border-radius: 8px;
+}
+
+.logo{
+    width:30px;
+    height: 30px;
+}
+
+.buttonDivText{
     float: left;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 200%;
-    }
+    padding-left:75px;
+    
+}
 
-    @media (max-width: 700px) {
-        .column {
-          width: 100%;
-        } 
-        .circle{
-          width: 100%;
-          height: 75vw;
+.buttonDivLogo{
+    float: left;
+    padding-left:10px;
+    
+}
 
-        }      
-        
-      }
+.spanBtn{
+    font-size: 18px;
+    color:#062e6d;
+    font-family: Arial;
+}
+
+.enterBotton{
+    margin:auto;
+    width: 50%;
+    margin-top:20px;
+}
+
+.enter {
+    width:100%;
+    height:40px;
+    border-radius: 30px;
+    margin:auto;
+}
+
+p{
+    margin: auto;
+    font-size: 25px;
+    color: red;
+    font-family: Arial;
+}
+
+h2{
+    color: #fff;
+font-family: Arial;
+font-size: 18px;
+line-height: 20px;
+font-weight: normal;
+text-align: center;
+margin-top: 72px;
+
+
+}
